@@ -69,4 +69,4 @@ O arquivo pode ser transformado em imagem através do seguinte comando em um ter
 
 dot -Tsvg input.dot > output.svg
 
-O trabalho deve ser feito em equipes de até quatro pessoas e submetido nesta página até a data especificada ao lado (apenas um membro da equipe precisa submeter e apenas o código-fonte deve ser submetido, sem os arquivos adicionais). As defesas ocorrerão durante a aula desse mesmo dia. Não serão aceitas entregas que ultrapassem o prazo. Cada grupo terá até 10 minutos para apresentar seu trabalho ao professor. A atribuição da nota será individual e apenas aos integrantes presentes. Durante a defesa o professor poderá solicitar explicações e modificações no código para qualquer um dos integrantes. Os códigos devem compilar e rodar normalmente nos computadores da universidade, mas a defesa pode ser feita no computador de um dos integrantes da equipe. Instruções adicionais poderão ser dadas ao longo das próximos aulas e/ou acrescentadas nesta especificação.
+
