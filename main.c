@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include <string.h>
 
+/* ===== STRUCTS EMBAIXO ===== */
+
 /*struct actor {
 
     int id;
@@ -21,6 +23,9 @@ struct movie {
     struct node * neighbors;
 
 };*/
+
+
+/* ===== STRUCTS EM CIMA ===== */
 
 int main()
 {
