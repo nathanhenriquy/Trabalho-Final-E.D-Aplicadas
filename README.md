@@ -2,7 +2,7 @@ Alunos:
 <p>Nathan - Conectado<p>
 <p>Paulo - <p>
 
-
+<p><p>
 O IMDB disponibiliza periodicamente arquivos com informações sobre a indústria cinematográfica estruturados em formato TSV (tab separated values). Dentre esses arquivos estão o name.basics.tsv.gz e o title.basics.tsv.gz (que podem ser encontrados em datasets.imdbws.com). Segue um trecho do primeiro:
 
 
