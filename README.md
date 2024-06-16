@@ -2,10 +2,8 @@ Alunos:
 <p>Nathan - Conectado<p>
 <p>Paulo - <p>
 
-<p><p>
+<br><br>
 O IMDB disponibiliza periodicamente arquivos com informações sobre a indústria cinematográfica estruturados em formato TSV (tab separated values). Dentre esses arquivos estão o name.basics.tsv.gz e o title.basics.tsv.gz (que podem ser encontrados em datasets.imdbws.com). Segue um trecho do primeiro:
-
-
 
 nconst primaryName birthYear deathYear primaryProfession knownForTitles
 
@@ -47,11 +45,11 @@ struct movie {
 };
 
 
-(5) Efetue a leitura do arquivo de artistas. (O arquivo é extenso. Visando facilitar seus testes, coloque um contador no laço de leitura para interromper a leitura quando achar necessário.) Extraia de cada linha o ID (observe que este pode ser convertido para int caso sejam removidas as duas letras iniciais), o nome do artista e sua lista de filmes. Guarde os dados de cada linha em sua devida struct e insira as structs no array.
-(6) De modo similar, efetue a leitura do arquivo de filmes, salvando os IDs (como int) e os títulos dos filmes nas devidas structs e insira as mesmas na lista de adjacências. As linhas que não correspondam a filmes (isto é, que não possuam o valor movie na segunda coluna) devem ser ignoradas. Inicialmente o grafo não deve ter arestas.
-(7) Percorra o array de artistas, verifique os seus filmes de destaque e forme no grafo uma clique entre esses filmes. A clique é formada inserindo-se arestas (caso ainda não existam) entre todos os vértices em questão (caso existam).
-(8) Observe que buscar os filmes por ID na lista de adjacências custa tempo linear, de modo que a inserção das arestas poderá ser quadrática. Para acelerar esse processo, caso o array que está na base da lista de adjacências esteja ordenado, é possível usar busca binária para encontrar os filmes tempo logarítmico. (Para facilitar a implementação você pode adaptar algum dos algoritmos de ordenação disponibilizados pelo professor. Observe que esta etapa não é essencial para que o algoritmo funcione, porém, sem ela o tempo de execução bastante alto.)
-(9) Visite o grafo e imprima o mesmo na linguagem DOT (graphviz.org/doc/info/lang.html) em um arquivo chamado input.dot. Nessa impressão os nomes dos filmes devem ser usados como identificadores, tal como no exemplo a seguir:
+(5) Efetue a leitura do arquivo de artistas. (O arquivo é extenso. Visando facilitar seus testes, coloque um contador no laço de leitura para interromper a leitura quando achar necessário.) Extraia de cada linha o ID (observe que este pode ser convertido para int caso sejam removidas as duas letras iniciais), o nome do artista e sua lista de filmes. Guarde os dados de cada linha em sua devida struct e insira as structs no array.<br>
+(6) De modo similar, efetue a leitura do arquivo de filmes, salvando os IDs (como int) e os títulos dos filmes nas devidas structs e insira as mesmas na lista de adjacências. As linhas que não correspondam a filmes (isto é, que não possuam o valor movie na segunda coluna) devem ser ignoradas. Inicialmente o grafo não deve ter arestas.<br>
+(7) Percorra o array de artistas, verifique os seus filmes de destaque e forme no grafo uma clique entre esses filmes. A clique é formada inserindo-se arestas (caso ainda não existam) entre todos os vértices em questão (caso existam).<br>
+(8) Observe que buscar os filmes por ID na lista de adjacências custa tempo linear, de modo que a inserção das arestas poderá ser quadrática. Para acelerar esse processo, caso o array que está na base da lista de adjacências esteja ordenado, é possível usar busca binária para encontrar os filmes tempo logarítmico. (Para facilitar a implementação você pode adaptar algum dos algoritmos de ordenação disponibilizados pelo professor. Observe que esta etapa não é essencial para que o algoritmo funcione, porém, sem ela o tempo de execução bastante alto.)<br>
+(9) Visite o grafo e imprima o mesmo na linguagem DOT (graphviz.org/doc/info/lang.html) em um arquivo chamado input.dot. Nessa impressão os nomes dos filmes devem ser usados como identificadores, tal como no exemplo a seguir:<br>
 
 graph { concentrate=true
 
