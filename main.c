@@ -4,26 +4,27 @@
 
 /* ===== STRUCTS EMBAIXO ===== */
 
-/*struct actor {
+struct node {
+    int movieId;
+    struct node* next;
+};
 
+struct actor {
     int id;
+    char* name;
+    struct node* movies;
+};
 
-    char * name;
-
-    struct node * movies;
-
+struct lista {
+    int movieId;
+    struct lista* next;
 };
 
 struct movie {
-
     int id;
-
-    char * title;
-
-    struct node * neighbors;
-
-};*/
-
+    char* title;
+    struct lista* neighbors;
+};
 
 /* ===== STRUCTS EM CIMA ===== */
 
