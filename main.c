@@ -4,6 +4,9 @@
 
 /* ===== STRUCTS EMBAIXO ===== */
 
+
+
+
 struct node {
     int movieId;
     struct node* next;
@@ -15,16 +18,14 @@ struct actor {
     struct node* movies;
 };
 
-struct lista {
-    int movieId;
-    struct lista* next;
-};
-
 struct movie {
     int id;
     char* title;
     struct lista* neighbors;
 };
+
+
+
 
 /* ===== STRUCTS EM CIMA ===== */
 
