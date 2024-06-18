@@ -7,22 +7,28 @@
 
 
 
-struct node {
-    int movieId;
+typedef struct {
+    int movie_id;
     struct node* next;
-};
+} node;
 
-struct actor {
+typedef struct {
     int id;
     char* name;
     struct node* movies;
-};
+} actor;
 
-struct movie {
+typedef struct {
     int id;
     char* title;
     struct lista* neighbors;
-};
+} movie;
+
+struct node* create_node(int id) {
+    node* new_node = malloc(sizeof(node));
+    new_node->movie_id = id;
+    new_node->next = NULL;
+}
 
 
 
