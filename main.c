@@ -21,7 +21,7 @@ typedef struct {
 typedef struct {
     int id;
     char* title;
-    struct lista* neighbors;
+    struct node* neighbors;
 } movie;
 
 struct node* create_node(int id) {
