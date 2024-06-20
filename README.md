@@ -17,9 +17,9 @@ Embora aparentem ser espaços, os valores de cada linha estão separados pelo ca
 O objetivo deste trabalho é implementar em linguagem C (utilizando apenas os cabeçalhos padrão) um programa que identifique quais filmes possuem artistas em comum, utilizando para tanto as estruturas de dados vistas no curso até então. Mais especificamente, o programa deve gerar um grafo (representado como uma lista de adjacências) tal que os vértices sejam correspondam aos filmes e as arestas correspondam a filmes que tiveram artistas em comum no elenco. Segue um delineamento do processo:
 
 
-(1) Implemente um array dinâmico para armazenar os artistas.
-(2) Implemente uma lista de adjacências para armazenar os filmes. (A lista de adjacência é formada por um array dinâmico para os vértices e uma lista encadeada para as arestas de cada vértice.)
-(3) Crie uma struct para os artistas. O nome do artista deve ser alocado dinamicamente e seus filmes de destaque devem ser guardados em uma lista encadeada. Exemplo:
+(1) Implemente um array dinâmico para armazenar os artistas.<br><br>
+(2) Implemente uma lista de adjacências para armazenar os filmes. (A lista de adjacência é formada por um array dinâmico para os vértices e uma lista encadeada para as arestas de cada vértice.)<br><br>
+(3) Crie uma struct para os artistas. O nome do artista deve ser alocado dinamicamente e seus filmes de destaque devem ser guardados em uma lista encadeada. Exemplo:<br><br>
 
 struct actor {
 
