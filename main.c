@@ -273,6 +273,8 @@ int main() {
     initArray(&actors);
     initListAdja(&movies);
 
+    printf("== ESPERAR MENSAGEM DE CONCLUIDO ==");
+
     lerActorsFile(&actors, "name.basics.tsv");
     lerMoviesFile(&movies, "title.basics.tsv");
 
@@ -280,7 +282,7 @@ int main() {
 
     desenharDot(&movies, "input.dot");
 
-    printf("== CONCLUIDO ==");
+     printf("\n\n== CONCLUIDO ==");
 
     freeArray(&actors);
     freeListAdja(&movies);
