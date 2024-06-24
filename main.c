@@ -3,12 +3,6 @@
 #include <string.h>
 #include "structs.h"
 
-#define CAPACIDADE_INICIAL 100
-
-
-
-
-
 int main() {
 
     ArrayDina actors;
